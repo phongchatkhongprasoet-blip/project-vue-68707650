@@ -22,11 +22,28 @@ const routes = [
     path: '/product_list',
     name: 'product_list',
     component: () => import( '../views/product_list.vue')
-  },{
+  },
+  {
     path: '/gold',
     name: 'gold',
     component: () => import( '../views/gold.vue')
+  },
+  {
+    path: '/show_customer',
+    name: 'show_customer',
+    component: () => import( '../views/Show_customer.vue')
+  },
+  {
+    path: '/show_employee',
+    name: 'show_employee',
+    component: () => import( '../views/Show_employee.vue')
+  },
+  {
+    path: '/show_register',
+    name: 'show_register',
+    component: () => import('../views/Register.vue')
   }
+
 
 ]
 
